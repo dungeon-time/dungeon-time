@@ -2,9 +2,15 @@
   "name": "dungeon-time",
   "version": "0.0.1",
   "description": "A cross-platform application for running and managing Dungeons and Dragons campaigns.",
-  "main": "dist/electron/main.js",
+  "main": "main.js",
   "repository": "https://github.com/dungeon-time/dungeon-time.git",
+  "scripts": {
+    "start": "electron ."
+  },
   "author": "Jared Collier",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
 }
